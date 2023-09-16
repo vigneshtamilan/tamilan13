@@ -1,0 +1,28 @@
+print("***santhosh textiles***")
+print("double damaka offer")
+#two+one offer
+cotton_shirt=2+1
+cotton_tshirt=2+1
+jeanspant=2+1
+cotton_pant=2+1
+dress=["cotton_shirt,cotton_tshirt,jeanspant,cotton_pant"]
+your_selection=input("enter your selection")
+if your_selection:
+    print(f"{your_selection} is available")
+    how_many=int(input("how many{your_selection}you want"))
+    if how_many >=2:
+        print(f"you are eligible to get an offer in plus one {your_selection}")
+    else:
+        print("you are not eligible to get an offer")
+
+
+
+output:
+      PS C:\Users\Sabari> & C:/Users/Sabari/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Sabari/Saved Games/aug8.py"     
+***santhosh textiles***
+double damaka offer
+enter your selection jeans
+ jeans is available
+how many  jeans you want 5
+you are eligible to get an offer in plus one  jeans
+PS C:\Users\Sabari> 

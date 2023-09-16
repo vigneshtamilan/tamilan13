@@ -1,0 +1,41 @@
+print("****CHENNAI BUSES****")
+print("buses->normal bus-60,Luxury bus-110")
+normal_bus=60
+Luxury_bus=110
+your_ticket=int(input("enter your tickets"))
+print(your_ticket)
+if your_ticket == 60:
+    print("you are available to travel in normal bus in any place in chennai")
+
+elif your_ticket == 110:
+    print("you are available to travel a Luxury bus in any place in chennai")
+else:
+    print("you are available to travel a other bus")
+
+
+
+output:
+
+PS C:\Users\Sabari> & C:/Users/Sabari/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Sabari/Saved Games/aug7.py"     
+buses->normal bus-60,Luxury bus-110
+enter your tickets 60
+60
+you are available to travel in normal bus in any place in chennai
+PS C:\Users\Sabari> & C:/Users/Sabari/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Sabari/Saved Games/aug7.py"     
+buses->normal bus-60,Luxury bus-110
+enter your tickets110
+110
+you are available to travel a Luxury bus in any place in chennai
+PS C:\Users\Sabari> & C:/Users/Sabari/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Sabari/Saved Games/aug7.py"     
+****CHENNAI BUSES****
+buses->normal bus-60,Luxury bus-110
+enter your tickets40
+40
+you are available to travel a other bus
+PS C:\Users\Sabari> & C:/Users/Sabari/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Sabari/Saved Games/aug7.py"     
+****CHENNAI BUSES****
+buses->normal bus-60,Luxury bus-110
+enter your tickets70
+70
+you are available to travel a other bus
+PS C:\Users\Sabari> 
